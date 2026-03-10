@@ -34,7 +34,7 @@ pub fn App() -> impl IntoView {
         <Stylesheet id="leptos" href="/pkg/gemini-wrapper-chat.css"/>
 
         // sets the document title
-        <Title text="Welcome to Leptos"/>
+        <Title text="Totally not another Gemini Wrapper ♊️"/>
 
         // content for this welcome page
         <Router>
@@ -55,7 +55,7 @@ fn HomePage() -> impl IntoView {
     let on_click = move |_| *count.write() += 1;
 
     view! {
-        <h1>"Welcome to Leptos!"</h1>
+        <h1>"Totally not another Gemini Wrapper ♊️"</h1>
         <button on:click=on_click>"Click Me: " {count}</button>
     }
 }
